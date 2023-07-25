@@ -14,6 +14,10 @@
 		995BE3482A62CF3A0038BE1A /* UnitConverterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 995BE3472A62CF3A0038BE1A /* UnitConverterTests.swift */; };
 		995BE3522A62CF3A0038BE1A /* UnitConverterUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 995BE3512A62CF3A0038BE1A /* UnitConverterUITests.swift */; };
 		995BE3542A62CF3A0038BE1A /* UnitConverterUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 995BE3532A62CF3A0038BE1A /* UnitConverterUITestsLaunchTests.swift */; };
+		995BE3632A66BDD50038BE1A /* LengthView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 995BE3622A66BDD50038BE1A /* LengthView.swift */; };
+		995BE3652A66C09E0038BE1A /* TemperatureView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 995BE3642A66C09E0038BE1A /* TemperatureView.swift */; };
+		995BE3672A66FCE70038BE1A /* TimeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 995BE3662A66FCE70038BE1A /* TimeView.swift */; };
+		995BE3692A670B500038BE1A /* MassConverter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 995BE3682A670B500038BE1A /* MassConverter.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +48,10 @@
 		995BE34D2A62CF3A0038BE1A /* UnitConverterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UnitConverterUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		995BE3512A62CF3A0038BE1A /* UnitConverterUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnitConverterUITests.swift; sourceTree = "<group>"; };
 		995BE3532A62CF3A0038BE1A /* UnitConverterUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnitConverterUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		995BE3622A66BDD50038BE1A /* LengthView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LengthView.swift; sourceTree = "<group>"; };
+		995BE3642A66C09E0038BE1A /* TemperatureView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TemperatureView.swift; sourceTree = "<group>"; };
+		995BE3662A66FCE70038BE1A /* TimeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeView.swift; sourceTree = "<group>"; };
+		995BE3682A670B500038BE1A /* MassConverter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MassConverter.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,8 +102,12 @@
 		995BE3352A62CF390038BE1A /* UnitConverter */ = {
 			isa = PBXGroup;
 			children = (
+				995BE3662A66FCE70038BE1A /* TimeView.swift */,
 				995BE3362A62CF390038BE1A /* UnitConverterApp.swift */,
 				995BE3382A62CF390038BE1A /* ContentView.swift */,
+				995BE3682A670B500038BE1A /* MassConverter.swift */,
+				995BE3622A66BDD50038BE1A /* LengthView.swift */,
+				995BE3642A66C09E0038BE1A /* TemperatureView.swift */,
 				995BE33A2A62CF3A0038BE1A /* Assets.xcassets */,
 				995BE33C2A62CF3A0038BE1A /* Preview Content */,
 			);
@@ -257,8 +269,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				995BE3692A670B500038BE1A /* MassConverter.swift in Sources */,
 				995BE3392A62CF390038BE1A /* ContentView.swift in Sources */,
+				995BE3652A66C09E0038BE1A /* TemperatureView.swift in Sources */,
+				995BE3672A66FCE70038BE1A /* TimeView.swift in Sources */,
 				995BE3372A62CF390038BE1A /* UnitConverterApp.swift in Sources */,
+				995BE3632A66BDD50038BE1A /* LengthView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -345,7 +361,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -399,7 +415,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -425,6 +441,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -454,6 +471,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
