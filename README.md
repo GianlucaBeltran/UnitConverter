@@ -4,7 +4,7 @@
 - [Demo](#demo-)
 - [Development](#development-)
 	- [Logic](#logic-)
-	- [User Interface](#uI-)
+	- [User Interface](#user-interface-)
 - [Improvements](#improvements-)
 
 ## Goal <a name="Goal"></a>
