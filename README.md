@@ -1,11 +1,11 @@
 ## Glossary
 
-- [Goal](#Goal)
-- [Demo](#Demo)
-- [Development](#Development)
-	- [Logic](#Logic)
+- [Goal](#goal)
+- [Demo](#demo)
+- [Development](#development)
+	- [Logic](#logic)
 	- [User Interface](#UI)
-- [Improvements](#Improvements)
+- [Improvements](#improvements)
 
 ## Goal <a name="Goal"></a>
 
