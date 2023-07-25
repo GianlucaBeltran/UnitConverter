@@ -2,7 +2,7 @@
 
 - [Goal](#goal)
 - [Demo](#demo)
-- [Development](#development)
+- [Development](#development-)
 	- [Logic](#logic)
 	- [User Interface](#UI)
 - [Improvements](#improvements)
